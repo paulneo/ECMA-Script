@@ -21,3 +21,47 @@ console.log(epicPhrase);
 
 let epicPhrase2 = `${hello} ${world}`
 console.log(epicPhrase2);
+
+let lorem = 'Quiero escribir una frase epica que quiero separar \n'
++ 'otra frase epica que necesitamos'
+
+let lorem2 = `otra frase epica que necesitamos
+ahora es otra frase epica
+`
+
+console.log(lorem);
+console.log(lorem2);
+
+let person = {
+  'name': 'Jean',
+  'age': 32,
+  'country': 'PERU'
+}
+console.log(person.name, person.age);
+
+let { name, age, country } = person;
+console.log(name, age);
+
+
+let team1 = ['Jean', 'Pedro', 'Paul']
+let team2 = ['Valeria', 'Yesica', 'Camila']
+
+let education = ['David', ...team1, ...team2]
+console.log(education);
+
+{
+  var globalVar = 'Global Var'
+}
+
+{
+  let globalLet = 'Global Let'
+  console.log(globalLet);
+}
+
+console.log(globalVar);
+
+const a = 'b'
+// a = 'a' no va a cambiar 
+
+
+
