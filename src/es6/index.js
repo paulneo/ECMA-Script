@@ -14,6 +14,9 @@ function newFuntion2(name = 'Jean', age = 21, country = 'Peru'){
 newFuntion2()
 newFuntion2('Jean Paul', 21, 'Peru')
 
+
+
+//Template literals
 let hello = 'Hello'
 let world = 'World'
 let epicPhrase = hello + ' ' + world
@@ -22,6 +25,8 @@ console.log(epicPhrase);
 let epicPhrase2 = `${hello} ${world}`
 console.log(epicPhrase2);
 
+
+//Multilinea
 let lorem = 'Quiero escribir una frase epica que quiero separar \n'
 + 'otra frase epica que necesitamos'
 
@@ -32,6 +37,7 @@ ahora es otra frase epica
 console.log(lorem);
 console.log(lorem2);
 
+//Desestructuración
 let person = {
   'name': 'Jean',
   'age': 32,
@@ -42,7 +48,7 @@ console.log(person.name, person.age);
 let { name, age, country } = person;
 console.log(name, age);
 
-
+//SPREAT OPERATOR
 let team1 = ['Jean', 'Pedro', 'Paul']
 let team2 = ['Valeria', 'Yesica', 'Camila']
 
@@ -62,6 +68,8 @@ console.log(globalVar);
 
 const a = 'b'
 // a = 'a' no va a cambiar 
+
+
 
 
 
