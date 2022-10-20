@@ -39,8 +39,8 @@ let person = {
 
 console.log(person.name, person.age);
 
-let { name } = person;
-console.log(name);
+let { name: name2 } = person;
+console.log(name2);
 
 let team1 = ['Jean', 'Julian', 'Ricardo'];
 let team2 = ['Valeria', 'Yesica', 'Camila'];
