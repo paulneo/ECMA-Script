@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/paulneo/ECMA-Script/issues"
   },
-  "homepage": "https://github.com/paulneo/ECMA-Script#readme"
+  "homepage": "https://github.com/paulneo/ECMA-Script#readme",
+  "type": "module"
 }
