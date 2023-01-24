@@ -16,5 +16,8 @@
     "url": "https://github.com/paulneo/ECMA-Script/issues"
   },
   "homepage": "https://github.com/paulneo/ECMA-Script#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
